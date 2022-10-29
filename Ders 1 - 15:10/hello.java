@@ -34,11 +34,12 @@ public class hello {
         // }
         // dogruluk = false;
 
-        // if (dogruluk) {
-        //     System.out.println("dogruluk degeri true");
-        // } else {
-        //     System.out.println("dogruluk degeri false");
-        // }
+        if (dogruluk) {
+            System.out.println("dogruluk degeri true");
+        } else {
+            System.out.println("dogruluk degeri false");
+        }
+
         sayi = 26;
         if (sayi>30) {
             System.out.println("sayi büyüktür 30");
@@ -63,7 +64,6 @@ public class hello {
 
         }
 
-        
 
     }
 

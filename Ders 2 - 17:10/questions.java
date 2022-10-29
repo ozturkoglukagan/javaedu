@@ -6,6 +6,8 @@ public class questions {
 // inputla calistirmak icin: java questions input1 input2 input3 input4 x
 
     public static void main(String[] args) {
+        //String[] strarray= {"input1","input2","input3","input4","x"};
+       //                       0       1        2         3     4
     //array = bilgi & obje & sayı string boolean 
     //arraylist , hashmap , array
         int[] inttutanarray = new int[10]; //{0,0,0,0,0,0,0,0,0,0}
@@ -73,7 +75,7 @@ public class questions {
         int temp = x;
         boolean isSummer = y;
         if (isSummer) {
-            if (temp >=20 && temp <=35) {
+            if (temp >=20 && temp <=37) {
                 System.out.println("Children are playing.");
             }else{
                 System.out.println("Children are not playing.");     
@@ -133,26 +135,5 @@ public class questions {
     //arraylist , hashmap , array
 
 
-
-
-
-
-
-
-
-       
-
-
-// 1)  Get two integer value from the user (a and b) and print the b'th power of a 
-
-// 2) Calculate the summation of two doubles taken by the user and print it out
-
-// 3) Given a list of integers, count the number of negative numbers and print it out
-
-// 4) Given a list of integers, if there is any number divisible by 3 print its order (not index, orders start from 1). If not print "No divisible by 3"
-
-// 5) Given a list of integers, find the summation of even numbers that are divisible by 5
-
-// 6) Given a list of integers, find the minimum even number. If there are no even numbers in the set print out "There are no even numbers"
 
 }
